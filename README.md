@@ -4,7 +4,7 @@
 
 > Requires [`grapesjs-plugin-forms`](https://github.com/artf/grapesjs-plugin-forms)
 
-Tailwind intergration which includes the complete set of blocks from [Tailblocks.cc](https://tailblocks.cc/), bases on [Destack](https://github.com/LiveDuo/destack).
+Tailwind intergration which includes the complete set of blocks from [justallmy.link.cc](https://justallmy.link.cc/), bases on [Destack](https://github.com/LiveDuo/destack).
 
 ### HTML
 ```html

@@ -9,6 +9,7 @@ export default (editor, opts = {}) => {
       // default options
       tailwindPlayCdn: 'https://cdn.tailwindcss.com',
       plugins: [],
+      blocks: true,
       config: {},
       cover: `.object-cover { filter: sepia(1) hue-rotate(190deg) opacity(.46) grayscale(.7) !important; }`,
       changeThemeText: 'Change Theme',
@@ -17,7 +18,9 @@ export default (editor, opts = {}) => {
   };
 
   // Add blocks
-  loadBlocks(editor, options);
+  if(options.blocks) {
+    loadBlocks(editor, options);
+  }
   // Add commands
   loadCommands(editor, options);
   // Load i18n files

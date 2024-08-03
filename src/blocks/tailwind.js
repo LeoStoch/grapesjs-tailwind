@@ -16,6 +16,8 @@ import { source as b4 } from './data/blog-4'
 import { source as b4s } from './data/icons/blog-4'
 import { source as b5 } from './data/blog-5'
 import { source as b5s } from './data/icons/blog-5'
+import { source as l1 } from './data/linksite-1'
+import { source as l1s } from './data/icons/linksite-1'
 import { source as c1 } from './data/contact-1'
 import { source as c1s } from './data/icons/contact-1'
 import { source as c2 } from './data/contact-2'
@@ -66,6 +68,8 @@ import { source as g2 } from './data/gallery-2'
 import { source as g2s } from './data/icons/gallery-2'
 import { source as g3 } from './data/gallery-3'
 import { source as g3s } from './data/icons/gallery-3'
+import { source as g4 } from './data/gallery-4'
+import { source as g4s } from './data/icons/gallery-4'
 import { source as h1 } from './data/header-1'
 import { source as h1s } from './data/icons/header-1'
 import { source as h2 } from './data/header-2'
@@ -166,6 +170,13 @@ const sources = [
     content: b4,
     category: 'Blog',
     // order: 1
+  },
+  {
+    id: 'links-block-1',
+    class: '',
+    label: l1s,
+    content: l1,
+    category: 'Linksite',
   },
   {
     id: 'blog-block-5',
@@ -446,6 +457,13 @@ const sources = [
     content: g3,
     category: 'Gallery',
     // order: 1
+  },
+  {
+    id: 'gallery-block-4',
+    class: '',
+    label: g4s,
+    content: g4,
+    category: 'Gallery',
   },
   {
     id: 'header-block-1',
