@@ -2,9 +2,9 @@ export const source = `<!-- component -->
   <!-- This is an example component -->
   <div class="max-w-lg mx-auto bg-white shadow-md rounded-2xl">
     <div class="relative flex h-64 w-full justify-center bg-cover">
-      <img class="absolute flex h-64 w-full justify-center rounded-xl bg-cover" src="src/images/800x400-placeholder.svg"> 
+      <img class="absolute flex h-64 w-full justify-center rounded-xl bg-cover" src=""> 
       <div class="absolute -bottom-12 flex h-[120px] w-[120px] rounded-full border-[6px] border-white bg-pink-400 dark:!border-navy-700">
-        <img class="h-full w-full rounded-full" src="src/images/200x200-placeholder.svg" alt="" />
+        <img class="h-full w-full rounded-full" src="" alt="" />
       </div>
     </div>
     <!-- BIO -->
